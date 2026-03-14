@@ -12,7 +12,7 @@ AI-powered internal tools for a luxury jewelry maison — RAG chatbot &amp; anal
 
 ---
 
-##Context 
+## Context
 
 LÉIA is a fictional Parisian high jewelry and Swiss watchmaking house with worldwide boutiques. 
 This project simulates the AI tools a Product Manager might design for a luxury retail company to enhance customer experience and empower both field and office teams to make better, faster decisions. 
