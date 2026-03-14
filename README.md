@@ -121,16 +121,18 @@ Eight documents were structured into a queryable knowledge base, covering every 
 |----------|----------------|
 | `brand_story.txt` | Brand DNA, values, founding story, collection philosophy |
 | `boutique_guidelines.txt` | Service standards, client journey, advisor training |
-| `boutique_innovation.txt` | Two original phygital retail concepts: the 
-**Chrysalis Room** — a private in-store space with programmable environment 
-and an encrypted digital memory capsule tied to each purchase — and the 
-**Constellation Wall** — a touchscreen installation displaying real client 
-stories across all global boutiques, filterable by collection, theme, and city |
 | `after_sales_policy.txt` | Warranty, repairs, returns, trade-in program |
 | `care_instructions.txt` | Material-specific care by metal, stone, and product type |
 | `leia_products.csv` | 42 products — materials, prices, gemstones, craftsmanship |
 | `purchase_history.csv` | 186 transactions across 4 boutiques |
 | `client_profiles.csv` | VIP tiers, preferences, purchase history per client |
+
+**`boutique_innovation.txt`** — Two original phygital retail concepts:
+- **Chrysalis Room** — a private in-store space with programmable environment 
+  (lighting, scent, sound) and an encrypted digital memory capsule tied to 
+  each purchase
+- **Constellation Wall** — a touchscreen installation displaying real client 
+  stories across all global boutiques, filterable by collection, theme, and city
 
 
 ### 4. OKRs
