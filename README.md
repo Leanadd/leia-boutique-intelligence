@@ -12,58 +12,171 @@ AI-powered internal tools for a luxury jewelry maison — RAG chatbot &amp; anal
 
 ---
 
-## Context & Product Vision
+##Context 
 
-**LÉIA** is a fictional Parisian high jewelry and Swiss watchmaking house. This project simulates the AI tools a Product Manager might design and ship for a luxury retail company with boutiques across Paris, Geneva, New York, and Hong Kong.
+LÉIA is a fictional Parisian high jewelry and Swiss watchmaking house with worldwide boutiques. 
+This project simulates the AI tools a Product Manager might design for a luxury retail company to enhance customer experience and empower both field and office teams to make better, faster decisions. 
 
-### Product Vision — The Augmented Advisor
+Two tools were designed and built: 
+**multi-persona RAG chatbot** that gives every team instant access to brand knowledge,
+**analytics dashboard** that turns sales and client data into actionable insights.
 
-LÉIA was designed from the ground up with a specific brand DNA: **jewelry as emancipation**. 
-3 Jewerly and 1 Watch Collections:
-At LÉIA, femininity is vast. Powerful with Amazon. Poetic with Hatching. Boundless with Eclipse. A piece of jewelry is never assigned — it is chosen.
-Not jewelry as status, not jewelry as gift, jewelry as a mirror of identity, a tool for becoming. Collections are built around human experiences (transformation, power, fluidity) rather than gender. The Eclipse collection was specifically created for non-binary and gender-fluid individuals. 
 
-This brand philosophy directly shaped the AI product decisions.
+## Product Roadmap  
+### 1. Discovery — Problem Identification & User Needs
 
-A generic RAG assistant retrieves product specs. That's not enough in luxury.
+**"What are the real issues that luxury retail teams face on a daily basis, 
+and what can be improved?"**
 
-**LÉIA's assistant helps advisors tell the story of each piece** — why it was designed, what emotion it was meant to evoke, which client journey it speaks to. The goal is not to replace the human advisor but to augment them: turning them from salespeople into 
-**curators of experience** — translators between the brand's values and each client's personal aspirations.
+An analysis of the operational reality of a multi-boutique luxury maison revealed 
+three main friction points:
 
-> *"The advisor doesn't dictate, they illuminate. They don't push a product, they help the client recognize themselves in a piece."*
+**For field teams (boutique advisors, after-sales):**
+- No instant access to product knowledge, brand storytelling, or policies just before or during 
+  client interactions 
+- Training is provided at onboarding and updated only at each new collection release, 
+  leaving gaps in between
+- Information scattered across PDFs, emails, training decks, and intranets with no 
+  single place to turn to mid-conversation
+- No tool to quickly adjust the depth of an answer 
 
-This is the paradox the AI is designed to resolve: luxury retail needs to feel deeply human and spontaneous, while being perfectly consistent and informed. The augmented advisor is the answer — someone who can hold a meaningful conversation about identity and transformation, and instantly access the exact product knowledge or client insight that makes that conversation land.
+**For office teams (CRM, marketing, product):**
+- No unified view of sales performance, client behavior, or collection trends
+- Time wasted searching scattered systems when a question arises
+- Remote coordination with field teams is slow — no way to answer their questions 
+  in real time, creating bottlenecks on both sides
+- Personalization at scale is impossible: client data exists but can't be translated 
+  into actionable recommendations for advisors in the moment
 
-In a market where consumers increasingly ask not *"is this for a man or a woman?"* but *"what emotion does this piece evoke in me?"* — the advisor who can answer that question with confidence and depth wins the relationship.
+**For the organization:**
+- Inconsistent messaging across boutiques and countries, with no guarantee that 
+  brand DNA is being conveyed accurately at every touchpoint
+- Knowledge gaps are invisible 
+- A wrong answer on warranty, materials, or policy is a brand trust failure
+
+### 2. Problem Statement 
+
+> Brand knowledge and performance data are scattered across systems, making it 
+> harder for teams to deliver the seamless, personalized experience that defines luxury. 
+> The goal: augment every team member with the right information, at the right moment, in the right format.
+
+### 3. Product Vision
+
+#### The brand as a design constraint
+
+LÉIA was designed from scratch as the fictional company this project is built 
+around and its brand DNA directly shaped every product decision.
+
+Founded in 2013, the year France legalized marriage equality, LÉIA was built 
+around one core idea: **jewelry as emancipation**, as a mirror of identity.
+
+This translates into four distinct collections, each celebrating a different 
+facet of that vision:
+
+| Collection | Philosophy |
+|-----------|------------|
+|  **Amazon** | Unapologetic feminine power — bold, visible, commanding |
+|  **Hatching** | Quiet strength — delicate but unbreakable, soft yet architectural |
+|  **Eclipse** | Beyond definition — designed for non-binary and gender-fluid individuals |
+|  **Vanta** | Tech minimalism — time reimagined, function without decoration |
+
+> *"At LÉIA, femininity is vast. Powerful with Amazon. Poetic with Hatching. 
+> Boundless with Eclipse. A piece of jewelry is never assigned — it is chosen."*
+
+This matters for the AI product. 
+The assistant doesn't just retrieve specs, it helps advisors tell the story of each piece in a way that resonates with each client's identity and aspirations. 
+The **augmented advisor** becomes a curator of experience, translating brand values into deeply personal moments.
 
 ---
 
-### The problem
+#### Market trends that informed the vision
 
-The luxury sector is undergoing a fundamental shift. Online experiences now influence over 78% of all luxury purchases, and brands are under pressure to deliver interactions that are **hyperpersonalized, emotionally resonant, and consistent** — whether in-store, online, or across both. Consumers are willing to spend up to 20% more for experiences tailored to their tastes. The bar for in-store excellence has never been higher.
+Three structural shifts in luxury retail shaped the product direction:
 
-Yet the teams responsible for delivering that experience: boutique advisors, CRM, after-sales, marketing, are working with knowledge that is scattered across intranets, PDFs, SharePoint, training decks, and emails. The phygital promise breaks down at the most critical moment: when an advisor is standing in front of a client and doesn't have the right answer.
+**Hyper-personalization as the new standard**
+Consumers are willing to spend up to 20% more for personalized interactions. 
+Online experiences now influence over 78% of all luxury purchases. The 
+in-store advisor is the last and most powerful personalization lever 
+a brand has.
 
-The result:
+**The phygital imperative**
+Brands are using AI and connected experiences to make physical stores as 
+intelligent as digital channels — from real-time product intelligence to 
+experiential retail concepts that blend physical and digital touchpoints.
 
-- **Lost time** — advisors search manually mid-client interaction
-- **Inconsistent answers** — different boutiques, different versions of the truth
-- **Degraded client experience** — the luxury promise breaks down at the point of service
-- **No visibility on field needs** — management can't see what questions are being asked or where knowledge gaps exist
 
-This is the gap LÉIA AI Suite is designed to close: **bringing the omnichannel intelligence layer inside the boutique**, so advisors can deliver the hyper-personalized, expert experience that modern luxury clients expect, in real time, every time.
+**Omnichannel consistency at scale**
+With online luxury purchases forecast to reach 30% of market share, brand 
+consistency across every touchpoint is non-negotiable. An advisor in Hong Kong 
+and an advisor in Paris must tell the same story — with the same accuracy, 
+the same emotional depth, the same brand voice.
 
-### The product response
+---
 
-The goal was to go beyond a simple chatbot demo and think through **who the users are**, **what problems they face daily**, and **how AI can solve them** — the way a PM would.
+#### Knowledge architecture
 
-Rather than "building a chatbot," I defined the business problem first, then designed two tools to address it:
+Eight documents were structured into a queryable knowledge base, covering every dimension of the brand a team member might need:
 
-| Tool                        | What it solves                     | For whom |
-| 🤖 **RAG Chatbot** | Instant, reliable access to internal knowledge — grounded in brand documents, adapted by role | Boutique advisors, CRM, after-sales, marketing, product teams |
-| 📊 **Analytics Dashboard** | Unified view of sales, client, and collection performance — turning raw data into actionable insights | Boutique managers, CRM team |
+| Document | What it enables |
+|----------|----------------|
+| `brand_story.txt` | Brand DNA, values, founding story, collection philosophy |
+| `boutique_guidelines.txt` | Service standards, client journey, advisor training |
+| `boutique_innovation.txt` | Two phygital retail concepts designed for LÉIA: 
+The **Chrysalis Room** : a private in-store space reserved for clients living 
+a significant life transition (coming out, divorce, career milestone), equipped 
+with adaptive lighting, sound, and a digital memory capsule linked to their 
+purchase.
+The **Constellation Wall** : a live interactive installation 
+displaying anonymized client stories, creating a visible community inside 
+the boutique |
+| `after_sales_policy.txt` | Warranty, repairs, returns, trade-in program |
+| `care_instructions.txt` | Material-specific care by metal, stone, and product type |
+| `leia_products.csv` | 42 products — materials, prices, gemstones, craftsmanship |
+| `purchase_history.csv` | 186 transactions across 4 boutiques |
+| `client_profiles.csv` | VIP tiers, preferences, purchase history per client |
 
-Together they create a **single source** for both operational knowledge and business performance — and a feedback loop where usage patterns reveal what the field actually needs
+
+### 4. OKRs
+
+**Objective 1 — Empower field and office teams with instant, reliable access 
+to brand knowledge**
+
+| Key Result | Target |
+|-----------|--------|
+| KR1 | Reduce average time to find product or policy information from ~5 min to <30 sec |
+| KR2 | Deliver consistent, brand-accurate answers across all 5 user personas |
+| KR3 | Cover 100% of knowledge base documents in RAG retrieval |
+
+**Objective 2 — Give managers and office teams actionable visibility on 
+business performance**
+
+| Key Result | Target |
+|-----------|--------|
+| KR1 | Deliver a unified view of revenue, clients, and collections across all boutiques |
+| KR2 | Enable filtering by city, collection, VIP tier, and date range |
+| KR3 | Surface top clients, advisor performance, and product trends in a single view |
+
+**Objective 3 — Build a scalable knowledge system that improves over time**
+
+| Key Result | Target |
+|-----------|--------|
+| KR1 | Establish a modular knowledge base that can be updated without touching the code |
+| KR2 | Identify knowledge gaps through usage patterns and dashboard insights |
+| KR3 | Document a clear iteration roadmap based on observed user needs |
+
+### 5. The Product Response
+
+Two complementary tools designed to address the identified needs : 
+one for knowledge access, one for performance visibility.
+
+| Tool | What it solves | For whom |
+|------|---------------|----------|
+| 🤖 **RAG Chatbot** | Instant access to brand knowledge, adapted by role and context | Boutique advisors, CRM, after-sales, marketing, product teams |
+| 📊 **Analytics Dashboard** | Unified view of sales, clients, and collection performance | Boutique managers, CRM team |
+
+Together they create a **single source of truth** and a feedback loop where usage patterns reveal what teams actually need, informing future iterations of both tools.
+
+---
 
 ## 🤖 Feature 1 — Multi-Persona RAG Chatbot
 
