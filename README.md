@@ -121,14 +121,11 @@ Eight documents were structured into a queryable knowledge base, covering every 
 |----------|----------------|
 | `brand_story.txt` | Brand DNA, values, founding story, collection philosophy |
 | `boutique_guidelines.txt` | Service standards, client journey, advisor training |
-| `boutique_innovation.txt` | Two phygital retail concepts designed for LÉIA: 
-The **Chrysalis Room** : a private in-store space reserved for clients living 
-a significant life transition (coming out, divorce, career milestone), equipped 
-with adaptive lighting, sound, and a digital memory capsule linked to their 
-purchase.
-The **Constellation Wall** : a live interactive installation 
-displaying anonymized client stories, creating a visible community inside 
-the boutique |
+| `boutique_innovation.txt` | Two original phygital retail concepts: the 
+**Chrysalis Room** — a private in-store space with programmable environment 
+and an encrypted digital memory capsule tied to each purchase — and the 
+**Constellation Wall** — a touchscreen installation displaying real client 
+stories across all global boutiques, filterable by collection, theme, and city |
 | `after_sales_policy.txt` | Warranty, repairs, returns, trade-in program |
 | `care_instructions.txt` | Material-specific care by metal, stone, and product type |
 | `leia_products.csv` | 42 products — materials, prices, gemstones, craftsmanship |
