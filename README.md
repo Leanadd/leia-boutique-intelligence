@@ -18,7 +18,7 @@ LÉIA is a fictional Parisian high jewelry and Swiss watchmaking house with worl
 This project simulates the AI tools a Product Manager might design for a luxury retail company to enhance customer experience and empower both field and office teams to make better, faster decisions. 
 
 Two tools were designed and built: 
-**multi-persona RAG chatbot** that gives every team instant access to brand knowledge,
+**multi-persona RAG chatbot** gives every team instant access to brand knowledge, and helps boutique advisors turn client insights into personalized, on-brand interactions in seconds
 **analytics dashboard** that turns sales and client data into actionable insights.
 
 
@@ -38,7 +38,9 @@ three main friction points:
   leaving gaps in between
 - Information scattered across PDFs, emails, training decks, and intranets with no 
   single place to turn to mid-conversation
-- No tool to quickly adjust the depth of an answer 
+- The real bottleneck is not lack of data, it's the gap between knowing 
+  and acting: advisors have context but no support to turn it into a 
+  confident, personalized interaction at the right moment
 
 **For office teams (CRM, marketing, product):**
 - No unified view of sales performance, client behavior, or collection trends
@@ -83,7 +85,6 @@ facet of that vision:
 > *"At LÉIA, femininity is vast. Powerful with Amazon. Poetic with Hatching. 
 > Boundless with Eclipse. A piece of jewelry is never assigned — it is chosen."*
 
-This matters for the AI product. 
 The assistant doesn't just retrieve specs, it helps advisors tell the story of each piece in a way that resonates with each client's identity and aspirations. 
 The **augmented advisor** becomes a curator of experience, translating brand values into deeply personal moments.
 
@@ -189,11 +190,21 @@ The same question gets a **different answer depending on who is asking** — bec
 
 | Persona | Use case | Response style |
 |---------|----------|----------------|
-| 🛍️ Boutique Advisor | Quick ref during client interaction | Concise, bullet points, 50-100 words |
+| 🛍️ Boutique Advisor | Quick ref during client interaction **or** personalized outreach preparation based on client profile | Concise, bullet points, 50-100 words |
 | 📞 Customer Service | After-sales policy & repair info | Clear, step-by-step, policy-accurate |
 | 🎨 Marketing / Brand | Storytelling & brand positioning | Rich, narrative, 150-250 words |
 | 📈 CRM Manager | Client insights & purchase patterns | Data-focused, analytical |
 | 🔧 Product Team | Materials, craftsmanship, specs | Technical, detailed |
+
+**Clienteling in action — two advisor use cases:**
+
+| Question type | Example | Response |
+|--------------|---------|----------|
+| Product info | "Materials of the Möbius Ring?" | Bullet points — metal, stone, price, key feature |
+| Client outreach | "Sophie arrives tomorrow, how do I prepare?" | Client profile summary + conversation starter + product suggestion based on her history |
+
+> If a client is not found in the knowledge base, the assistant says so clearly — 
+> it never invents data.
 
 ### Architecture
 
@@ -320,18 +331,28 @@ langchain          # or your RAG implementation
 
 ## 🔭 Roadmap — What I'd build next
 
-Thinking like a PO, here are the features I'd prioritize in a next sprint:
+Here are the features I'd prioritize in a next sprint:
 
-- [ ] **Client 360 view** — merge chatbot + dashboard so advisors can pull a client profile mid-conversation
-- [ ] **Real-time CRM sync** — replace static CSVs with a live database (Supabase or Airtable)
-- [ ] **Conversation memory** — persist chat history per advisor session
-- [ ] **Alert system** — flag dormant VIP clients who haven't purchased in 6+ months
-- [ ] **Multi-language support** — French / English / Cantonese for HK boutique
-- [ ] **Feedback loop** — advisors rate chatbot answers to fine-tune retrieval quality over time
+**Machine Learning & Behavioral Analytics layer** 
+- [ ] **Behavioral analysis** — analyze purchase history, expressed preferences, and social media interactions to build rich client profiles and detect emerging taste signals 
+- [ ] **Sales forecasting** — predict collection and boutique performance for the coming months 
+- [ ] **Retrieval ranking** — train a ranking model on advisor feedback to continuously improve chatbot answer quality over time
+
+**Improve the chatbot** 
+- [ ] **Conversation memory** — persist context within a session so advisors can ask follow-up questions without repeating themselves
+- [ ] **Feedback loop** — advisors rate answers (👍/👎) to track response quality and improve retrieval over time 
+- [ ] **Multi-language support** — French, English, Cantonese for the Hong Kong boutique
+- [ ] **Knowledge gap tracking** — analyze chatbot query patterns to identify where information is missing or unclear
+
+**Bigger picture** 
+- [ ] **Connect the two tools** — an advisor mid-conversation could pull live dashboard insights directly in the chatbot.
+
+**Improve the dashboard** 
+- [ ] **Real-time data sync** — replace static CSVs with a live database (Supabase or Airtable) 
 
 ---
 
-## 💡 Why this project / About me
+## Why this project / About me
 
 I built this project to demonstrate product thinking applied to AI tooling — not just the technical implementation, but the upstream decisions: who are the users, what are their pain points, and how does the product design reflect that.
 
@@ -341,7 +362,7 @@ My background is in [your background here]. I'm looking for **Product Owner / Pr
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 LÉIA is a fictional brand created for this portfolio project. All data (clients, transactions, products) is synthetic. No real personal data was used.
 
