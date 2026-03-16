@@ -146,6 +146,7 @@ to brand knowledge**
 | KR1 | Reduce average time to find product or policy information from ~5 min to <30 sec |
 | KR2 | Deliver consistent, brand-accurate answers across all 5 user personas |
 | KR3 | Cover 100% of knowledge base documents in RAG retrieval |
+| KR4 | Enable advisors to prepare personalized client outreach in <1 min using client data |
 
 **Objective 2 — Give managers and office teams actionable visibility on 
 business performance**
@@ -171,7 +172,7 @@ one for knowledge access, one for performance visibility.
 
 | Tool | What it solves | For whom |
 |------|---------------|----------|
-| 🤖 **RAG Chatbot** | Instant access to brand knowledge, adapted by role and context | Boutique advisors, CRM, after-sales, marketing, product teams |
+| 🤖 **RAG Chatbot** | Instant access to brand knowledge, adapted by role and context, and for boutique advisors, turns client data into personalized outreach in seconds | Boutique advisors, CRM, after-sales, marketing, product teams |
 | 📊 **Analytics Dashboard** | Unified view of sales, clients, and collection performance | Boutique managers, CRM team |
 
 Together they create a **single source of truth** and a feedback loop where usage patterns reveal what teams actually need, informing future iterations of both tools.
