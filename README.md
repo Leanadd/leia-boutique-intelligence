@@ -32,23 +32,17 @@ An analysis of the operational reality of a multi-boutique luxury maison reveale
 three main friction points:
 
 **For field teams (boutique advisors, after-sales):**
-- No instant access to product knowledge, brand storytelling, or policies just before or during 
-  client interactions 
+- No instant access to product knowledge, brand storytelling, or policies during client interactions, with information scattered across PDFs, emails, training decks, and intranets, leaving no single place to turn mid‑conversation.
 - Training is provided at onboarding and updated only at each new collection release, 
   leaving gaps in between
-- Information scattered across PDFs, emails, training decks, and intranets with no 
-  single place to turn to mid-conversation
-- The real bottleneck is not lack of data, it's the gap between knowing 
-  and acting: advisors have context but no support to turn it into a 
+- The real bottleneck is the gap between knowing and acting: advisors have context but no support to turn it into a 
   confident, personalized interaction at the right moment
+  -They also need guidance on how to rebound in front of a client, from greetings to tailored recommendations, with on‑brand insights delivered instantly.
 
 **For office teams (CRM, marketing, product):**
-- No unified view of sales performance, client behavior, or collection trends
-- Time wasted searching scattered systems when a question arises
-- Remote coordination with field teams is slow — no way to answer their questions 
-  in real time, creating bottlenecks on both sides
-- Personalization at scale is impossible: client data exists but can't be translated 
-  into actionable recommendations for advisors in the moment
+- Struggle with fragmented sales and client data, making personalization at scale difficult. 
+- They lack a unified view of performance and
+- Cannot provide real‑time answers to field teams, creating bottlenecks on both sides.
 
 **For the organization:**
 - Inconsistent messaging across boutiques and countries, with no guarantee that 
@@ -58,22 +52,25 @@ three main friction points:
 
 ### 2. Problem Statement 
 
-> Brand knowledge and performance data are scattered across systems, making it 
-> harder for teams to deliver the seamless, personalized experience that defines luxury. 
-> The goal: augment every team member with the right information, at the right moment, in the right format.
+> Brand knowledge and performance data remain fragmented, leaving teams without a unified view to guide them
+> and a real‑time support to turn context into confident, personalized interactions.
+> The goal: empower every persona with the right information and discourse at the right moment, ensuring luxury experiences stay seamless and true to brand DNA.
+
 
 ### 3. Product Vision
 
 #### The brand as a design constraint
 
+The assistant doesn't just retrieve specs, it helps advisors tell the story of each piece in a way that resonates with each client's identity and aspirations. 
+The **augmented advisor** becomes a curator of experience, translating brand values into deeply personal moments.
+
 LÉIA was designed from scratch as the fictional company this project is built 
 around and its brand DNA directly shaped every product decision.
 
 Founded in 2013, the year France legalized marriage equality, LÉIA was built 
-around one core idea: **jewelry as emancipation**, as a mirror of identity.
+around one core idea: **jewelry as emancipation, as a mirror of identity**, as a mirror of identity.
 
-This translates into four distinct collections, each celebrating a different 
-facet of that vision:
+The maison expresses this vision through four collections:
 
 | Collection | Philosophy |
 |-----------|------------|
@@ -84,9 +81,6 @@ facet of that vision:
 
 > *"At LÉIA, femininity is vast. Powerful with Amazon. Poetic with Hatching. 
 > Boundless with Eclipse. A piece of jewelry is never assigned — it is chosen."*
-
-The assistant doesn't just retrieve specs, it helps advisors tell the story of each piece in a way that resonates with each client's identity and aspirations. 
-The **augmented advisor** becomes a curator of experience, translating brand values into deeply personal moments.
 
 ---
 
@@ -355,11 +349,14 @@ Here are the features I'd prioritize in a next sprint:
 
 ## Why this project / About me
 
-I built this project to demonstrate product thinking applied to AI tooling — not just the technical implementation, but the upstream decisions: who are the users, what are their pain points, and how does the product design reflect that.
+I built this project to demonstrate product thinking applied to AI tooling, and my ability to connect technical workflows with user needs. 
 
-My background is in [your background here]. I'm looking for **Product Owner / Product Manager** roles where I can sit at the intersection of user needs, business goals, and technical feasibility.
+Fascinated by new technologies and AI, I bring a hybrid background in law and business, enriched by roles across account management, partnerships, marketing, and operations in tech organizations from startups to multinationals. 
 
-📬 [LinkedIn](https://linkedin.com/in/your-profile) · [Email](mailto:your@email.com)
+My clear goal is to move into operational and strategic roles leading innovative, AI‑driven projects. What motivates me most is shaping vision, structuring roadmaps, building solutions, and ensuring they create real impact, with adaptability and fast learning as my foundation.
+
+
+📬 [LinkedIn](https://www.linkedin.com/in/leana-dardano/) · [Email](mailto:dardano.leana@email.com)
 
 ---
 
