@@ -1,0 +1,65 @@
+client_id,first_name,last_name,preferred_pronouns,email,phone,city,age,vip_tier,total_spent_usd,purchase_count,last_visit_date,preferred_metals,preferred_stones,preferred_collections,style_profile,budget_range,notable_purchases,occasions,notes,preferred_advisor
+
+# ===== PARIS (10 clients) =====
+CLI001,Sophie,Dubois,she/her,sophie.dubois@consulting.fr,+33-6-12-34-56-78,Paris,38,Member,8500,2,2025-02-01,"18K white gold",diamonds,Hatching,Delicate minimalist,4000-6000,"Feather Touch Ring, Whisper Ear Climbers",Building first luxury collection,"Management consultant. First luxury purchase was birthday gift to self. Building collection thoughtfully. Prefers everyday elegance.",Jean Marceau
+
+CLI002,River,Thompson,they/them,river.art@gmail.com,+33-6-45-78-90-12,Paris,31,Gold,34200,5,2024-12-28,"titanium, platinum, mixed metals",moonstone,Eclipse,Conceptual and gender-fluid,6000-12000,"Satellite Orbit Earrings, Binary Identity Ring, Möbius Ring",Personal transition milestones,"Non-binary artist. Celebrating HRT anniversary. Loves kinetic mechanisms and conceptual pieces. Collects Eclipse slowly.",Jean Marceau
+
+CLI003,Amélie,Laurent,she/her,amelie.l@artgallery.fr,+33-6-87-65-43-21,Paris,44,Gold,38700,6,2024-10-18,"18K yellow gold, sterling silver","amber, turquoise, coral",Amazon,Bohemian luxury,5000-12000,"Tribal Torque Necklace, Shield Insignia Brooch",Art openings and cultural events,"Gallery owner. Loves colored stones and organic materials. Tribal aesthetic resonates. Wears pieces as conversation starters.",Isabelle Rousseau
+
+CLI004,Antoine,Moreau,he/him,a.moreau@finance.fr,+33-6-67-89-01-23,Paris,54,Diamond,195600,14,2024-11-08,"platinum, 18K white gold, black ceramic","diamonds, rare colored stones","All collections - collects across",Serious collector,15000-40000,"Multiple high-value pieces across collections",Building comprehensive collection,"Wealth manager. Serious jewelry and watch collector. One of LÉIA's top clients. Appreciates innovation and craftsmanship.",Isabelle Rousseau
+
+CLI005,Wei,Li,she/her,wei.li@fashion.cn,+33-6-23-45-67-89,Paris,39,Gold,42800,7,2025-01-28,"18K yellow gold, 18K rose gold","diamonds, pearls",Hatching,Elegant and feminine,5000-9000,"Chrysalis Back Drape, Silk Armor Bracelet, Dawn Light Collar",Fashion events and galas,"Chinese tourist regular visitor. Fashion editor based in Beijing. Prefers shopping in Paris. Strong social media presence.",Jean Marceau
+
+CLI006,Jing,Zhang,she/her,jing.zhang@luxury.cn,+33-6-34-56-78-90,Paris,42,Platinum,89300,8,2024-11-22,"18K rose gold, platinum","emeralds, diamonds",Amazon,Bold statement pieces,12000-25000,"Conquest Cuff, Warrior Queen Ring, Sovereign Collar",Career and personal celebrations,"Chinese entrepreneur. Frequent Paris visitor. Celebrates business milestones with LÉIA. Appreciates French luxury heritage.",Isabelle Rousseau
+
+CLI007,Michael,Johnson,he/him,m.johnson@consulting.us,+33-6-45-67-89-12,Paris,47,Platinum,94500,6,2024-09-30,"18K yellow gold, platinum","rubies, sapphires",Amazon,Classic with edge,12000-25000,"Citadel Fortress Ring, Amazonian Link Bracelet",Anniversary gifts for partner,"American expat consultant. Buys bold pieces for partner's milestones. Appreciates craftsmanship stories. Regular client.",Jean Marceau
+
+CLI008,James,Thompson,he/him,j.thompson@banking.us,+33-6-56-78-90-23,Paris,43,Gold,36500,5,2025-02-05,"platinum, 18K white gold",diamonds,Vanta,Investment pieces,8000-15000,"Eclipse Skeleton, Horizon GMT Watch",Watch collecting,"American banker in Paris. Watch enthusiast. Appreciates Vanta's innovation. Building modern watch collection.",Isabelle Rousseau
+
+CLI009,Farah,Al-Rashid,she/her,farah.alrashid@luxury.ae,+33-6-67-89-01-34,Paris,36,Platinum,127500,9,2025-01-15,"18K yellow gold, platinum","emeralds, large diamonds","Amazon, Hatching",Opulent and refined,15000-35000,"Conquest Cuff, Sovereign Collar, Chrysalis Back Drape",Personal luxury collection,"Emirates regular client. Shops in Paris twice yearly. Appreciates both power pieces and delicate craftsmanship. VIP service.",Jean Marceau
+
+CLI010,Yuki,Tanaka,she/her,yuki.tanaka@design.jp,+33-6-78-90-12-45,Paris,35,Member,8900,2,2025-01-18,"18K white gold, platinum",diamonds,Hatching,Minimalist Japanese aesthetic,4000-5000,"Feather Touch Ring, Whisper Ear Climbers",Personal style,"Japanese tourist and repeat visitor. Interior designer. Appreciates LÉIA's architectural approach. Prefers delicate pieces.",Jean Marceau
+
+# ===== HONG KONG (10 clients) =====
+CLI011,Alexandra,Chen,she/her,a.chen@techventures.hk,+852-9234-5678,Hong Kong,42,Platinum,112400,8,2025-01-05,"18K yellow gold, black titanium","emeralds, black diamonds",Amazon,Bold statement pieces,15000-35000,"Conquest Cuff, Warrior Queen Ring, Lioness Hair Comb",Career milestones,"Self-made tech CEO. Celebrates professional achievements with power pieces. Prefers unapologetic presence jewelry.",Michelle Wong
+
+CLI012,Sarah,Liu,she/her,sarah.liu@pharma.hk,+852-9567-8901,Hong Kong,46,Platinum,76800,7,2024-12-30,"18K yellow gold, 18K rose gold","emeralds, rubies",Amazon,Powerful and elegant,10000-18000,"Conquest Cuff, Sovereign Collar, Warrior Queen Ring",Executive presence,"Pharmaceutical executive. Buys pieces that command boardroom presence. Appreciates bold design with refinement.",Raymond Lee
+
+CLI013,Ming,Wu,she/her,ming.wu@finance.hk,+852-9123-4567,Hong Kong,41,Gold,47200,5,2024-10-12,"18K white gold, platinum","diamonds, sapphires",Hatching,Classic elegance,8000-15000,"Echoes of Voice Drop Earrings, Dawn Light Collar, Silk Armor Bracelet",Personal collection and events,"Private banker. Sophisticated taste. Appreciates delicate craftsmanship. Loyal client for 2 years.",Michelle Wong
+
+CLI014,Li,Huang,she/her,li.huang@hospitality.hk,+852-9234-6789,Hong Kong,37,Gold,28900,5,2024-11-30,"18K rose gold, 18K yellow gold",diamonds,Hatching,Romantic and detailed,5000-8000,"Chrysalis Locket, Luminous Nest Hair Vine, Feather Touch Ring",Self-care and celebration,"Hotel executive. Buys pieces to mark personal growth moments. Loves delicate craftsmanship and hidden details.",Michelle Wong
+
+CLI015,David,Williams,he/him,d.williams@law.hk,+852-9345-6789,Hong Kong,45,Gold,41800,5,2025-02-10,"18K yellow gold, platinum","rubies, diamonds","Amazon, Vanta",Traditional luxury with impact,8000-15000,"Warrior Queen Ring for partner, Horizon GMT Watch",Gifts and personal collection,"British expat lawyer. Traditional buyer. Appreciates quality and heritage. Buys for partner's birthdays and own watch collection.",Raymond Lee
+
+CLI016,Christopher,Bennett,he/him,c.bennett@consulting.hk,+852-9456-7890,Hong Kong,38,Member,11500,3,2024-09-15,"titanium, black ceramic",none - focus on tech,Vanta,Tech enthusiast minimalist,3000-5000,"Singularity Digital Watch, Void Automatic",Personal collection,"British expat consultant. Early adopter. Loves tech innovation. Bought e-ink watch immediately. Follows Vanta releases.",Raymond Lee
+
+CLI017,Jean,Bernard,he/him,j.bernard@finance.hk,+852-9567-8012,Hong Kong,48,Gold,38700,6,2024-08-22,"platinum, black ceramic",sapphire crystal,Vanta,Technical and sophisticated,8000-12000,"Eclipse Skeleton, Stealth Chronograph, Quantum Minimal",Watch collecting,"French expat investment banker. Watch collector and enthusiast. Appreciates Vanta's innovation. Visits boutique quarterly.",Michelle Wong
+
+CLI018,Marie,Rousseau,she/her,m.rousseau@luxury.hk,+852-9678-9123,Hong Kong,51,Platinum,103200,9,2025-01-30,"18K rose gold, platinum","diamonds, pearls",Hatching,Classic feminine luxury,10000-18000,"Multiple Hatching pieces including back necklaces and hair jewelry",Personal collection and events,"French expat luxury brand executive. Sophisticated taste. Appreciates delicate craftsmanship. Regular client for 3+ years.",Michelle Wong
+
+CLI019,Priya,Sharma,she/her,priya.sharma@tech.hk,+852-9876-5432,Hong Kong,36,Gold,31200,4,2025-02-05,"18K rose gold, titanium",diamonds,Eclipse,Modern and versatile,7000-11000,"Continuum Collar, Gravity Defying Hoops, Parallel Lines Cuff",Self-reward purchases,"Indian expat tech product manager. Rewards herself quarterly for achievements. Prefers pieces that work business to evening.",Michelle Wong
+
+CLI020,Min,Park,they/them,min.park@design.hk,+852-9789-0234,Hong Kong,33,Member,11900,3,2025-01-20,"black titanium, oxidized silver",none - emphasis on form,Eclipse,Architectural minimalist,3000-5000,"Threshold Ring, Identity Medallion, Nexus Chain",Personal style expression,"Korean expat graphic designer. Minimalist aesthetic. Appreciates negative space and conceptual design. Wears jewelry as wearable sculpture.",Raymond Lee
+
+# ===== SHANGHAI (5 clients) =====
+CLI021,Ling,Yang,she/her,ling.yang@realestate.cn,+86-138-0123-4567,Shanghai,39,Gold,32100,5,2024-10-25,"18K yellow gold, amber","turquoise, amber, coral",Amazon,Artistic and organic,6000-9000,"Tribal Torque Necklace, Lioness Mane Hair Comb",Art collecting and lifestyle,"Real estate developer. Drawn to pieces with cultural resonance and organic materials. Wears jewelry as art.",Li Na
+
+CLI022,Hui,Xu,she/her,hui.xu@tech.cn,+86-138-1234-5678,Shanghai,34,Member,9200,2,2025-01-25,"18K white gold, platinum",diamonds,Eclipse,Clean and modern,4000-6000,"Binary Identity Ring, Obsidian Eclipse Earrings",Startup milestones,"Tech entrepreneur. First major purchase after funding round. Identifies with Eclipse's innovation ethos.",Wei Chen
+
+CLI023,Jun,Lin,he/him,jun.lin@finance.cn,+86-138-2345-6789,Shanghai,43,Gold,44900,6,2024-09-05,"18K yellow gold, 18K rose gold","diamonds, colored sapphires",Amazon,Bold modern luxury,6000-12000,"Amazonian Link Bracelet, Thunder Statement Earrings, Citadel Ring",Investment collection,"Finance executive. Building luxury collection. Appreciates bold colorful pieces. Strong understanding of craftsmanship value.",Li Na
+
+CLI024,Xiao,Zhou,she/her,xiao.zhou@fashion.cn,+86-138-3456-7890,Shanghai,41,Gold,36500,7,2025-02-03,"18K rose gold, 18K yellow gold","diamonds, pearls",Hatching,Elegant and poetic,5000-8000,"Chrysalis Back Drape, Spine Curve Hair Pin, Silk Armor Bracelet",Fashion and events,"Fashion industry executive. Wears LÉIA to industry events. Loves dramatic pieces with stories. Social media influencer.",Wei Chen
+
+CLI025,Robert,Davis,he/him,robert.davis@consulting.cn,+86-138-4567-8901,Shanghai,39,Gold,38700,4,2024-12-10,"black ceramic, titanium, DLC coating",minimal stones,Vanta,Technical minimalist,8000-12000,"Eclipse Skeleton, Stealth Chronograph, Abyss Dive",Watch collecting,"American expat consultant. Watch enthusiast who appreciates horology. Vanta appeals to his modern aesthetic. Plans to collect full line.",Li Na
+
+# ===== NEW YORK (5 clients) =====
+CLI026,Ryan,Foster,he/him,ryan.f@advertising.com,+1-917-555-0276,New York,36,Member,9800,2,2024-11-15,"black titanium, oxidized metals",none - material focus,Eclipse,Industrial modern,4000-6000,"Threshold Ring, Parallel Lines Cuff",Personal style,"Creative director. Appreciates industrial materials and conceptual design. First luxury jewelry purchase.",Marcus Johnson
+
+CLI027,Emma,Martinez,she/her,emma.martinez@law.com,+1-212-555-0147,New York,44,Platinum,68900,8,2024-10-30,"18K white gold, platinum","diamonds, sapphires","Eclipse, Hatching",Sophisticated modern,8000-15000,"Continuum Collar, Satellite Orbit Earrings, Chrysalis Back Drape",Executive wardrobe,"Lawyer. Sophisticated taste. Appreciates LÉIA's inclusive ethos. Wears pieces to high-stakes meetings.",Sarah Mitchell
+
+CLI028,Omar,Al-Mansouri,he/him,omar.almansouri@investment.ae,+1-212-555-0198,New York,42,Platinum,94500,6,2025-02-10,"18K yellow gold, platinum","emeralds, large diamonds",Amazon,Opulent and bold,15000-30000,"Sovereign Collar, Conquest Cuff, Warrior Queen Ring",Investment pieces,"UAE investor. New York regular visitor. Appreciates bold statement pieces. Buys for self and family.",Marcus Johnson
+
+CLI029,Layla,Hassan,she/her,layla.hassan@consulting.com,+1-646-555-0189,New York,40,Gold,41800,6,2024-11-22,"18K yellow gold, 18K white gold","colored sapphires, emeralds",Amazon,Bold and colorful,5000-9000,"Amazonian Link Bracelet, Thunder Statement Earrings, Shield Brooch",Career celebration,"Egyptian-American consultant. Promoted to partner. Celebrates with bold colorful pieces. Confident and expressive style.",Sarah Mitchell
+
+CLI030,Carolina,Silva,she/they,carolina.silva@media.com,+1-917-555-0234,New York,29,Member,6800,2,2025-02-08,"sterling silver, oxidized details",moonstone,Eclipse,Bohemian and meaningful,3000-4000,"Alchemy Symbol Pendant, Duality Band Ring",Personal milestones,"Brazilian journalist. Coming out anniversary purchase. Appreciates symbolism. Budget-conscious but values meaning over price.",Sarah Mitchell
