@@ -196,7 +196,7 @@ The same question gets a **different answer depending on who is asking** — bec
 | Question type | Example | Response |
 |--------------|---------|----------|
 | Product info | "Materials of the Möbius Ring?" | Bullet points — metal, stone, price, key feature |
-| Client outreach | "Sophie arrives tomorrow, how do I prepare?" | Client profile summary + conversation starter + product suggestion based on her history |
+| Client outreach | "Sophie arrives tomorrow, how do I prepare?" | Client profile summary + product suggestion based on her history |
 
 > If a client is not found in the knowledge base, the assistant says so clearly — 
 > it never invents data.
@@ -329,7 +329,9 @@ langchain          # or your RAG implementation
 Here are the features I'd prioritize in a next sprint:
 
 **Machine Learning & Behavioral Analytics layer** 
-- [ ] **Behavioral analysis** — analyze purchase history, expressed preferences, and social media interactions to build rich client profiles and detect emerging taste signals 
+- [ ] **Clienteling assistant** — enable advisors to prepare personalized client outreach in seconds: "Sophie arrives tomorrow, how do I prepare?" → client 
+  profile summary + conversation starter + product suggestion based on her history
+- [ ]**Behavioral analysis** — analyze purchase history, expressed preferences, and social media interactions to build rich client profiles and detect emerging taste signals 
 - [ ] **Sales forecasting** — predict collection and boutique performance for the coming months 
 - [ ] **Retrieval ranking** — train a ranking model on advisor feedback to continuously improve chatbot answer quality over time
 
