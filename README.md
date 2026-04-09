@@ -21,7 +21,6 @@ Two tools were designed and built:
 **multi-persona RAG chatbot** gives every team instant access to brand knowledge, and helps boutique advisors turn client insights into personalized, on-brand interactions in seconds
 **analytics dashboard** that turns sales and client data into actionable insights.
 
-
 ## Product Roadmap  
 ### 1. Discovery — Problem Identification & User Needs
 
@@ -200,6 +199,17 @@ The same question gets a **different answer depending on who is asking** — bec
 
 > If a client is not found in the knowledge base, the assistant says so clearly — 
 > it never invents data.
+
+## Chatbot Demo
+
+### Interface
+![LÉIA Assistant Home](screenshots/chatbot_home.png)
+
+### Multi-role Selection
+![Role Selection](screenshots/chatbot_roles.png)
+
+### Example Interaction
+![Boutique Advisor Response](screenshots/chatbot_response.png)
 
 ### Architecture
 
