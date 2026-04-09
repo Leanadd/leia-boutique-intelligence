@@ -80,7 +80,7 @@ The maison expresses this vision through four collections:
 |  **Vanta** | Tech minimalism — time reimagined, function without decoration |
 
 > *"At LÉIA, femininity is vast. Powerful with Amazon. Poetic with Hatching. 
-> Boundless with Eclipse. A piece of jewelry is never assigned — it is chosen."*
+> Boundless with Eclipse."*
 
 ---
 
@@ -282,12 +282,16 @@ leia-ai-suite/
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/your-username/leia-ai-suite.git
-cd leia-ai-suite
+git clone https://github.com/Leanadd/leia-boutique-intelligence.git
+cd leia-boutique-intelligence
 ```
 
-### 2. Install dependencies
+### 2. Create and activate a virtual environment, then Install dependencies
 ```bash
+python -m venv venv  # macOS/Linux
+source venv/bin/activate # Windows
+venv\Scripts\activate
+
 pip install -r requirements.txt
 ```
 
@@ -295,6 +299,8 @@ pip install -r requirements.txt
 ```bash
 cp .env.example .env
 # Add your Hugging Face token to .env
+# Example:
+# HUGGINGFACE_API_KEY=hf_xxxxx
 ```
 
 ### 4. Run the chatbot
