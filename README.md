@@ -1,3 +1,10 @@
+
+> ⚠️ **This project has evolved.**
+> A new version is available with a full ML layer, client segmentation, 
+> piece recommendation, and sales trend prediction.
+> 
+> 👉 **[See LÉIA Intelligence Paris](https://github.com/Leanadd/leia-boutique-intelligence-paris/)**
+
 # LÉIA AI Suite — Boutique Intelligence Platform
 
 AI-powered internal tools for a luxury jewelry maison — RAG chatbot &amp; analytics dashboard
